@@ -74,7 +74,7 @@
        CONTACT NAVBAR
     ============================================ */
     .contact-bar {
-      background: black;
+      background: #005536;
       border-bottom: 1px solid var(--gold);
       padding: 8px 5%;
       display: flex; align-items: center;
@@ -83,7 +83,7 @@
     }
     .contact-bar .social-icons { display: flex; gap: 14px; align-items: center; }
     .contact-bar .social-icons a {
-      color: rgba(255,255,255,0.5);
+      color: white;
       font-size: 0.85rem;
       transition: var(--transition);
     }
@@ -94,10 +94,10 @@
       letter-spacing: 1px;
       color: rgba(255,255,255,0.7);
     }
-    .contact-bar .phone i { color: var(--gold); margin-right: 6px; }
+    .contact-bar .phone i { color: white; margin-right: 6px; }
     .btn-saudia {
-      background: rgb(221, 0, 147);
-      color: white;
+      background: white;
+      color: #005536;
       padding: 6px 16px;
       font-size: 0.68rem;
       font-weight: 700;
@@ -110,7 +110,7 @@
     ============================================ */
     .main-nav {
       position: sticky; top: 0;
-      background: rgba(0,0,0,0.95);
+      background: white;
       backdrop-filter: blur(20px);
       border-bottom: 1px solid var(--dark-border);
       padding: 0 5%;
@@ -122,11 +122,11 @@
       transition: var(--transition);
     }
     .main-nav.scrolled {
-      background: var(--black);
+      background: rgba(255, 255, 255, 0.596);
       box-shadow: 0 4px 30px rgba(0,0,0,0.8);
     }
     .nav-logo img {
-      height: 120px;
+      height: 70px;
       width: auto;
       object-fit: contain;
       filter: brightness(1);
@@ -152,14 +152,14 @@
       font-weight: 600;
       letter-spacing: 1.5px;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.7);
+      color: black;
       padding: 24px 14px;
       display: block;
       position: relative;
       transition: var(--transition);
     }
     .nav-menu li a:hover,
-    .nav-menu li a.active { color: var(--white); }
+    .nav-menu li a.active { color: #005536; }
 
     /* Hamburger */
     .hamburger {
@@ -234,13 +234,13 @@
     /* ============================================
        SECTION UTILITIES
     ============================================ */
-    section { padding: 100px 5%; }
+    section { padding: 60px 5%; }
     .section-tag {
       font-size: 0.68rem;
       font-weight: 700;
       letter-spacing: 4px;
       text-transform: uppercase;
-      color: rgb(221, 0, 147);
+      color: #005536;
       margin-bottom: 12px;
       display: block;
     }
@@ -255,7 +255,7 @@
     .section-subtitle {
       font-size: 0.88rem;
       line-height: 1.9;
-      color: var(--text-muted);
+      color: black;
       font-weight: 300;
       max-width: 620px;
     }
@@ -295,7 +295,6 @@
       background: var(--gold);
       color: var(--black);
     }
-    .btn-gold:hover { background: var(--gold-dark); transform: translateY(-2px); }
     .btn-outline {
       background: transparent;
       color: var(--white);
@@ -307,7 +306,7 @@
     /* ============================================
        HAJJ WITH US
     ============================================ */
-    .hajj-intro { background: black; }
+    .hajj-intro { background: white; }
     .hajj-intro-inner {
       max-width: 1200px; margin: 0 auto;
       display: grid; grid-template-columns: 1fr 1fr;
@@ -371,7 +370,7 @@
     .pkg-card-body { padding: 24px; }
     .pkg-badge {
       display: inline-block;
-      background: rgb(221, 0, 147);
+      background: #005536;
       color: white;
       font-size: 0.6rem;
       font-weight: 700;
@@ -412,11 +411,11 @@
     /* ============================================
        TESTIMONIALS
     ============================================ */
-    .testimonials-section { background: black; }
+    .testimonials-section { background: #f6fffc; }
     .testimonials-slider { margin-top: 60px; }
     .testimonial-card {
       padding: 40px;
-      background: var(--dark-card);
+      background: white;
       border: 1px solid var(--dark-border);
       border-radius: var(--radius-lg);
       margin: 0 12px;
@@ -436,7 +435,7 @@
     .testimonial-text {
       font-size: 0.85rem;
       line-height: 1.9;
-      color: rgba(255,255,255,0.7);
+      color: black;
       margin-bottom: 24px;
       font-style: italic;
     }
@@ -447,8 +446,8 @@
       object-fit: cover;
       border: 2px solid var(--gold);
     }
-    .author-name { font-weight: 600; font-size: 0.88rem; color: var(--white); }
-    .author-title { font-size: 0.7rem; color: var(--text-muted); letter-spacing: 1px; }
+    .author-name { font-weight: 600; font-size: 0.88rem; color: black; }
+    .author-title { font-size: 0.7rem; color: #005536; letter-spacing: 1px; }
 
     /* ============================================
        ABOUT US
@@ -516,7 +515,7 @@
     /* ============================================
        GALLERY
     ============================================ */
-    .gallery-section { background: black; padding: 80px 0; }
+    .gallery-section { background: #f6fffc; padding: 80px 0; }
     .gallery-section .section-header { padding: 0 5%; margin-bottom: 50px; }
     .gallery-slide {
       padding: 0 8px;
@@ -585,7 +584,7 @@
     /* ============================================
        SERVICES SECTION
     ============================================ */
-    .services-section { background: black; }
+    .services-section { background: #f6fffc; }
     .services-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -593,11 +592,11 @@
       margin-top: 60px;
     }
     .service-card {
-      background: var(--dark-card);
-      border: 1px solid var(--dark-border);
+      background: white;
       border-radius: var(--radius-lg);
       overflow: hidden;
       transition: var(--transition);
+      box-shadow: 1px 1px 10px gainsboro;
       position: relative;
     }
     .service-card:hover {
@@ -617,7 +616,7 @@
     .service-card-body { padding: 20px; }
     .service-icon {
       width: 40px; height: 40px;
-      background: rgba(188,161,48,0.1);
+      background: white;
       border: 1px solid var(--gold);
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
@@ -627,13 +626,13 @@
     .service-title {
       font-size: 0.85rem;
       font-weight: 700;
-      color: var(--white);
+      color: black;
       margin-bottom: 6px;
       letter-spacing: 0.5px;
     }
     .service-desc {
       font-size: 0.72rem;
-      color: var(--text-muted);
+      color: black;
       line-height: 1.7;
     }
 
@@ -646,8 +645,7 @@
         color: black;
     }
     .hajj-highlight {
-      background: var(--dark-card);
-      border-left: 3px solid var(--gold);
+      background: #005536;
       padding: 24px 28px;
       border-radius: 0 var(--radius) var(--radius) 0;
       margin: 24px 0;
@@ -673,8 +671,8 @@
     .timeline-item:last-child::before { display: none; }
     .timeline-num {
       width: 40px; height: 40px; flex-shrink: 0;
-      background: var(--gold);
-      color: var(--black);
+      background: #005536;
+      color: white;
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
       font-size: 0.75rem; font-weight: 800;
@@ -730,7 +728,7 @@
     /* ============================================
        SAUDIA EXPERIENCE
     ============================================ */
-    .saudia-section { background: var(--black); }
+    .saudia-section { background: #f6fffc; }
     .saudia-inner {
       max-width: 1200px; margin: 0 auto;
       display: grid; grid-template-columns: 1fr 1fr;
@@ -759,7 +757,7 @@
     /* ============================================
        INTERNATIONAL TOURS
     ============================================ */
-    .intl-tours { background: var(--black); }
+    .intl-tours { background: #f6fffc; }
     .tours-grid {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
@@ -817,7 +815,7 @@
        HAJJ SERVICES
     ============================================ */
     .hajj-services { background: white; }
-    .hajj-services .section-title{
+    .section-title{
         color: #000;
     }
     .hajj-services-grid {
@@ -827,7 +825,7 @@
       margin-top: 60px;
     }
     .hservice-card {
-      background: var(--dark-card);
+      background: #005536;
       border: 1px solid var(--dark-border);
       border-radius: var(--radius-lg);
       padding: 32px 20px;
@@ -841,7 +839,7 @@
     }
     .hservice-icon {
       font-size: 2rem;
-      color: var(--gold);
+      color: white;
       margin-bottom: 16px;
     }
     .hservice-title {
@@ -853,17 +851,22 @@
     }
     .hservice-desc {
       font-size: 0.72rem;
-      color: var(--text-muted);
+      color: white;
       line-height: 1.7;
       margin-bottom: 20px;
+    }
+    .hservice-card .btn-sm{
+      background-color: white;
+      color: #005536;
+      border: none;
     }
 
     /* ============================================
        FOOTER
     ============================================ */
     .footer {
-      background: black;
-      border-top: 1px solid var(--dark-border);
+      background: #f6fffc;
+      border-top: 1px solid var(--gold);
       padding: 80px 5% 0;
     }
     .footer-grid {
@@ -892,16 +895,16 @@
     .footer-about {
       font-size: 0.78rem;
       line-height: 1.9;
-      color: var(--text-muted);
+      color: black;
       margin-bottom: 24px;
     }
     .footer-social { display: flex; gap: 12px; }
     .footer-social a {
       width: 36px; height: 36px;
-      background: var(--dark-border);
+      background: #005536;
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255,255,255);
       font-size: 0.85rem;
       transition: var(--transition);
     }
@@ -911,13 +914,13 @@
       font-weight: 700;
       letter-spacing: 3px;
       text-transform: uppercase;
-      color: var(--gold);
+      color: #005536;
       margin-bottom: 24px;
     }
     .footer-col ul li { margin-bottom: 10px; }
     .footer-col ul li a {
       font-size: 0.78rem;
-      color: var(--text-muted);
+      color: black;
       transition: var(--transition);
       display: flex; align-items: center; gap: 8px;
     }
@@ -930,7 +933,7 @@
     .footer-contact li {
       display: flex; gap: 12px;
       font-size: 0.78rem;
-      color: var(--text-muted);
+      color: black;
       margin-bottom: 14px;
       align-items: flex-start;
     }
@@ -938,11 +941,13 @@
     .newsletter-form { display: flex; gap: 0; margin-top: 20px; }
     .newsletter-form input {
       flex: 1;
-      background: var(--dark-border);
+      background: white;
       border: 1px solid rgba(255,255,255,0.1);
       border-right: none;
       padding: 12px 16px;
-      color: var(--white);
+      color: black;
+      border: 1px solid black;
+      border-right: none;
       font-family: var(--font-body);
       font-size: 0.75rem;
       border-radius: var(--radius) 0 0 var(--radius);
@@ -969,7 +974,7 @@
       color: rgba(255,255,255,0.3);
       letter-spacing: 0.5px;
     }
-    .footer-bottom span { color: var(--gold); }
+    .footer-bottom span { color: black; }
 
     /* ============================================
        FLOATING BUTTONS
@@ -978,8 +983,8 @@
       position: fixed;
       bottom: 90px; right: 24px;
       width: 44px; height: 44px;
-      background: var(--gold);
-      color: var(--black);
+      background: #005536;
+      color: white;
       border: none;
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
@@ -1050,7 +1055,7 @@
     }
 
     @media (max-width: 768px) {
-      section { padding: 70px 5%; }
+      section { padding: 40px 5%; }
       .nav-menu { display: none; }
       .hamburger { display: flex; }
       .hajj-intro-inner { grid-template-columns: 1fr; gap: 40px; }
