@@ -216,9 +216,9 @@
       background-position: center;
       background-repeat: no-repeat;
     }
-    .hero-slide:nth-child(1) { background-image: url('images/hero-bg-1.png'); }
-    .hero-slide:nth-child(2) { background-image: url('images/hero-bg-2.png'); }
-    .hero-slide:nth-child(3) { background-image: url('images/hero-bg-3.png'); }
+    .hero-slide:nth-child(1) { background-image: url('images/hero-bg-1.webp'); }
+    .hero-slide:nth-child(2) { background-image: url('images/hero-bg-2.webp'); }
+    .hero-slide:nth-child(3) { background-image: url('images/hero-bg-3.webp'); }
 
     @media(max-width:600px){
      .hero-section { height: 30vh; position: relative; overflow: hidden; padding: 0;}
